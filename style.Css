@@ -1,0 +1,36 @@
+.navbar-brand img{
+width: 30px;
+height: 30px;
+
+}
+#carouselExampleFade{
+    width: 800px;
+    
+}
+.container{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,97,52,1) 47%);
+    font-family: 'Roboto', sans-serif;
+}
+.hero{
+    font-family: 'Dancing Script', cursive;
+    padding:100px
+}
+nav{
+    position: fixed;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.203);
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+}
+footer ul a{
+    text-decoration: none;
+    color: white;
+}

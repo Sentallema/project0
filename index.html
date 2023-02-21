@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Around the World</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="Terra_globe_icon.png" alt="icon">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" id="Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Premium</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Countries
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#USA">USA</a></li>
+                  <li><a class="dropdown-item" href="#Canada">Canada</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#UK">UK</a></li>
+                  <li><a class="dropdown-item" href="#France">France</a></li>
+                  <li><a class="dropdown-item" href="#German">German</a></li>
+                  <li><a class="dropdown-item" href="#Italia">Italia</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Prices</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-success" type="submit">Login</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <section class="hero">
+    <div class="container">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://ber.berlin-airport.de/en/news/2022-06-17-los-angeles.thumb.800.480.png?ck=1673616763" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Los Angeles</h5>
+              <p>Los Angeles is a huge city in southern California, the capital of the American film and television industry.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://static2.tripoto.com/media/filter/tst/img/2192583/TripDocument/1652106806_toronto.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Toronto</h5>
+              <p>Toronto is the capital of the province of Ontario, Canada's largest city, located on the northwest coast of Lake Ontario.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>France</h5>
+              <p>The capital of France Paris is one of the main European cities and the world center of culture, art, fashion and gastronomy.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="http://london.com/wp-content/uploads/2019/03/london_001.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>london</h5>
+              <p>London is the capital of England and the United Kingdom. The history of this modern city goes back to Roman times.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://media.timeout.com/images/105303515/750/422/image.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>German</h5>
+              <p>Germany is a country in Western Europe with forests, rivers, mountain ranges and beach resorts in the North Sea.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://cometeelmundo.net/sites/default/files/styles/760x430/public/media/blog/panteon-de-roma-por-la-noche.jpg?h=e6a1dec0&itok=ve7ruVc6" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Italia</h5>
+              <p>Italy is a Mediterranean country in Southern Europe with a long coastline that has had a huge impact on Western culture and cuisine.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </section>
+    
+    <section class="gradient">
+      <div class="container">
+        <div class="text-header text-center" id="USA">
+          <h1>
+            Los Angeles
+          </h1>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card justify-content-center text-center" style="width: 18rem;">
+              <img src="https://максимум-ск.рф/wp-content/uploads/2020/04/plusi-i-minusi-odnuschek-1.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Обычный дает билет,одну комнатную квартиру нету 3 разовое питание 100$</p>
+                <button type="button" class="btn btn-outline-warning">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="https://smarttone.ru/wp-content/uploads/2014/05/3-room.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Вип дает билет туда и обратно,3 комнатную квартиру есть 3 разовое питание 1000$</p>
+                <button type="button" class="btn btn-outline-warning">buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="https://microinvest.kz/upload/iblock/294/06wxqs8fh5s7kmippadilig5wgaxwdgm/%D0%BE%D1%82%D0%B5%D0%BB%D1%8C%20%D1%84%D0%BE%D1%82%D0%BE.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Премиум дает билет на 3 страны сразу 2 трех комнатные квартиры (Отель) безлимит питание 10000$</p>
+                <button type="button" class="btn btn-outline-warning">buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gradient">
+      <div class="container">
+        <div class="text-header text-center" id="Canada">
+          <h1>
+            Toronto
+          </h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card text-center" style="width: 18rem;">
+              <img src="https://максимум-ск.рф/wp-content/uploads/2020/04/plusi-i-minusi-odnuschek-1.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Обычный дает билет,одну комнатную квартиру нету 3 разовое питание 100$</p>
+                <button type="button" class="btn btn-outline-warning">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center" style="width: 18rem;">
+              <img src="https://smarttone.ru/wp-content/uploads/2014/05/3-room.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Вип дает билет туда и обратно,3 комнатную квартиру есть 3 разовое питание 1000$</p>
+                <button type="button" class="btn btn-outline-warning">buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center" style="width: 18rem;">
+              <img src="https://microinvest.kz/upload/iblock/294/06wxqs8fh5s7kmippadilig5wgaxwdgm/%D0%BE%D1%82%D0%B5%D0%BB%D1%8C%20%D1%84%D0%BE%D1%82%D0%BE.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Премиум дает билет на 3 страны сразу 2 трех комнатные квартиры (Отель) безлимит питание 10000$</p>
+                <button type="button" class="btn btn-outline-warning">buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gradient">
+      <div class="container">
+        <div class="text-header text-center" id="France">
+          <h1>
+            France
+          </h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card justify-content-center text-center" style="width: 18rem;">
+              <img src="https://максимум-ск.рф/wp-content/uploads/2020/04/plusi-i-minusi-odnuschek-1.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Обычный дает билет,одну комнатную квартиру нету 3 разовое питание 100$</p>
+                <button type="button" class="btn btn-outline-warning">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center" style="width: 18rem;">
+              <img src="https://smarttone.ru/wp-content/uploads/2014/05/3-room.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Вип дает билет туда и обратно,3 комнатную квартиру есть 3 разовое питание 1000$</p>
+                <button type="button" class="btn btn-outline-warning">buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center" style="width: 18rem;"> text-center
+              <img src="https://microinvest.kz/upload/iblock/294/06wxqs8fh5s7kmippadilig5wgaxwdgm/%D0%BE%D1%82%D0%B5%D0%BB%D1%8C%20%D1%84%D0%BE%D1%82%D0%BE.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Премиум дает билет на 3 страны сразу 2 трех комнатные квартиры (Отель) безлимит питание 10000$</p>
+                <button type="button" class="btn btn-outline-warning">buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gradient">
+      <div class="container">
+        <div class="text-header text-center" id="UK">
+          <h1>
+            London
+          </h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card justify-content-center text-center" style="width: 18rem;">
+              <img src="https://максимум-ск.рф/wp-content/uploads/2020/04/plusi-i-minusi-odnuschek-1.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Обычный дает билет,одну комнатную квартиру нету 3 разовое питание 100$</p>
+                <button type="button" class="btn btn-outline-warning">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center" style="width: 18rem;">
+              <img src="https://smarttone.ru/wp-content/uploads/2014/05/3-room.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Вип дает билет туда и обратно,3 комнатную квартиру есть 3 разовое питание 1000$</p>
+                <button type="button" class="btn btn-outline-warning">buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center" style="width: 18rem;">
+              <img src="https://microinvest.kz/upload/iblock/294/06wxqs8fh5s7kmippadilig5wgaxwdgm/%D0%BE%D1%82%D0%B5%D0%BB%D1%8C%20%D1%84%D0%BE%D1%82%D0%BE.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Премиум дает билет на 3 страны сразу 2 трех комнатные квартиры (Отель) безлимит питание 10000$</p>
+                <button type="button" class="btn btn-outline-warning">buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gradient">
+      <div class="container">
+        <div class="text-header text-center" id="German">
+          <h1>
+            Germany
+          </h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card justify-content-center text-center" style="width: 18rem;">
+              <img src="https://максимум-ск.рф/wp-content/uploads/2020/04/plusi-i-minusi-odnuschek-1.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Обычный дает билет,одну комнатную квартиру нету 3 разовое питание 100$</p>
+                <button type="button" class="btn btn-outline-warning">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center" style="width: 18rem;">
+              <img src="https://smarttone.ru/wp-content/uploads/2014/05/3-room.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Вип дает билет туда и обратно,3 комнатную квартиру есть 3 разовое питание 1000$</p>
+                <button type="button" class="btn btn-outline-warning">buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center" style="width: 18rem;">
+              <img src="https://microinvest.kz/upload/iblock/294/06wxqs8fh5s7kmippadilig5wgaxwdgm/%D0%BE%D1%82%D0%B5%D0%BB%D1%8C%20%D1%84%D0%BE%D1%82%D0%BE.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Премиум дает билет на 3 страны сразу 2 трех комнатные квартиры (Отель) безлимит питание 10000$</p>
+                <button type="button" class="btn btn-outline-warning">buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gradient">
+      <div class="container">
+        <div class="text-header text-center" id="Italia">
+          <h1>
+            Italia
+          </h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card justify-content-center text-center" style="width: 18rem;">
+              <img src="https://максимум-ск.рф/wp-content/uploads/2020/04/plusi-i-minusi-odnuschek-1.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Обычный дает билет,одну комнатную квартиру нету 3 разовое питание 100$</p>
+                <button type="button" class="btn btn-outline-warning">Buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center" style="width: 18rem;">
+              <img src="https://smarttone.ru/wp-content/uploads/2014/05/3-room.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Вип дает билет туда и обратно,3 комнатную квартиру есть 3 разовое питание 1000$</p>
+                <button type="button" class="btn btn-outline-warning">buy</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center" style="width: 18rem;">
+              <img src="https://microinvest.kz/upload/iblock/294/06wxqs8fh5s7kmippadilig5wgaxwdgm/%D0%BE%D1%82%D0%B5%D0%BB%D1%8C%20%D1%84%D0%BE%D1%82%D0%BE.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text">Премиум дает билет на 3 страны сразу 2 трех комнатные квартиры (Отель) безлимит питание 10000$</p>
+                <button type="button" class="btn btn-outline-warning">buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+
+      <footer>
+        <div class="container2">
+          
+          <div class="row justify-content-center">
+            <div class="col-2">
+              <ul>
+                <li><a href="#Home">Home </a></li>
+                <li>
+                  <a href="#Countries">Countries</a>
+                  <ul>
+                    <li><a class="#USA" href="#USA">USA</a></li>
+                    <li><a class="#Canada" href="#Canada">Canada</a></li>
+                    <li><a class="#UK" href="#UK">UK</a></li>
+                    <li><a class="#France" href="#France">France</a></li>
+                    <li><a class="#German" href="#German">German</a></li>
+                    <li><a class="#Italia" href="#Italia">Italia</a></li>
+                  </ul>
+                 </li>
+                 <li>
+                  <a class="#USA" href="#USA">Prices</a>
+                 </li>
+              </ul>
+            </div>
+            <div class="col-2">
+              <p><a href="#">Вакансия</a></p2>
+              <p>Адрес:Улица Пушкина дом Калатушкина</p>
+            </div>
+            <div class="col-2">
+              <p>B случае возникновения проблемы обратитесь в <a href="#">Тех поддержку</a></p>
+              <p>Наши номера <a href="#">8(777)460</a></p>
+              <p>Наши номера <a href="#">8(777)776</a></p>
+            </div>
+        </div>
+      </footer>
+    </section>
+</body>
+</html>
